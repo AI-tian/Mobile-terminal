@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        (function () {
+            remChange()
+            window.addEventListener('resize', remChange)
+            function remChange() {
+                const html = document.querySelector('html')
+                const width = html.getBoundingClientRect().width
+                html.style.fontSize = width / 3.75 + 'px'
+            }
+        })()
+
+    </script>
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./iconfont/font_dnegxt5146/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-top">
+            <a href="./index.html" class="Aback">
+                <i class="iconfont icon-jiantou-copy"></i>
+                <div class="back">返回</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="title">5998电话来电显示</h2>
+
+        <div class="section-one">
+            <h4 class="title">一、简介</h4>
+            <div class="text-content">
+                <span class="tip">
+                    <p>为进一步提升总部机关办公运行效率，自10月21日起，机关服务中心将开通5998电话通信录功能，来电可显示姓名和部门，
+                        并可快速查找电话号码。</p>
+                </span>
+            </div>
+
+            <div class="section-one">
+                <h4 class="title">二、实现方式</h4>
+                <div class="text-content">
+                    <span class="tip">
+                        <p>通过5998局办公电话系统的企业通信录功能，将总部机关电话号码簿由后台导入，实现5598电话来电显示姓名和部门。
+                            根据石油网站上各部门的号码簿为准，可随时进行通信录的号码更新。</p>
+                    </span>
+                </div>
+                <div class="text-content">
+                        <span class="tip">
+                            <p>如果本机自行设置的个人通信录与企业通信录导入的相同号码时，来电会显示个人通信录编辑的名称。</p>
+                        </span>
+                    </div>
+            </div>
+
+            <div class="section-one">
+                <h4 class="title">三、号码变更方式</h4>
+                </div>
+                <div class="text-content">
+                    <span class="tip">
+                        <p>如在使用过程中出现本人电话或所在部门变更的情况，请通知本部门综合处，向机关服务中心提交业务申请，即可及时完成更新。服务电话：59982112。</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="section-one">
+                <h4 class="title">四、快速查找方式</h4>
+                <h5>ESpace 7950 </h5>
+                <div class="text-content">
+                    <span class="tip">
+                        <p>按 <i class="iconfont icon-tongxunlu tongxun"></i> 键，弹出通讯录——>选择企业通讯录——>可在输入框中输入关键字搜索联系人（以“小明”为例，可以输入“小明”“xm”“xiaoming”）</p>
+                    </span>
+                </div>
+                <h5>ESpace 8950</h5>
+                <div class="text-content">
+                    <span class="tip">
+                        <p>按 <i class="iconfont icon-yonghu tongxun"></i> 键，弹出通讯录，选择通讯录——>选择企业通讯录——>可在输入框中输入关键字搜索联系人（以“小明”为例，可以输入“小明”“xm”“xiaoming”）</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>

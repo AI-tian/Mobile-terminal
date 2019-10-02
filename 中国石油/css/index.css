@@ -1,0 +1,144 @@
+body{
+    background-image: url(../images/shouye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0rem 0rem;
+    overflow: hidden;
+}
+.contianer{ 
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.logo{
+    width: 1.65rem;
+    height: 0.42rem;
+    margin: 0.60rem auto 0;
+    background-image: url(../images/logo.png);
+    background-size :100% 100%;
+}
+.title1{
+    width: 2.70rem;
+    height: 0.25rem;
+    background-image: url(../images/tit1.png);
+    background-size: 100% 100%;
+    margin:0.35rem auto 0; 
+}
+.title2{
+    width: 1.78rem;
+    height: 0.20rem;
+    background-image: url(../images/tit2.png);
+    background-size: 100% 100%;
+    margin:0.15rem auto 0;
+}
+.con{
+    width: 2.7rem;
+    height: 0.75rem;
+    font-size: 0.12rem;
+    font-family: '微软雅黑';
+    margin: 0.25rem auto 0;
+    text-indent: 0.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+.con-app{
+    position: relative;
+    width: 3rem;
+    height: 2.95rem;
+    margin: 0.3rem auto 0.6rem;
+}
+.top_l{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.45rem;
+    height: 1.4rem;
+    background-image: url(../images/con_l.png);
+    background-size: 100% 100%;
+}
+.top_r{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.45rem;
+    height: 1.4rem;
+    background-image: url(../images/con_r.png);
+    background-size: 100% 100%;
+}
+.bottom_l{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1.45rem;
+    height: 1.4rem;
+    background-image: url(../images/con_l1.png);
+    background-size: 100% 100%;
+}
+.bottom_r{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1.45rem;
+    height: 1.4rem;
+    background-image: url(../images/con_r1.png);
+    background-size: 100% 100%;
+}
+.footer{
+    font-size: 0.12rem;
+    font-family: '微软雅黑';
+    color: #fff;
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+}
+.con-app p{
+    position: absolute;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.con-tit1{
+    top:0.23rem;
+    left:0.1rem;
+}
+.con-tit2{
+    top:0.23rem;
+    right: 0.1rem;
+}
+.con-tit3{
+    bottom:0.1rem;
+    left: 0.1rem;
+}
+.con-tit4{
+    bottom:0.1rem;
+    right: 0.1rem;
+    text-align: right;
+}
+.con-app img{
+   position: absolute;
+ 
+}
+.img1{
+    top:0.52rem;
+    left: 0.41rem;
+    width: 0.65rem;
+    height: 0.54rem;
+}
+.img2{
+    top:0.52rem;
+    left: 0.41rem;
+    width: 0.48rem;
+    height: 0.52rem;
+}
+.img3{
+    top:0.22rem;
+    left: 0.35rem;
+    width: 0.75rem;
+    height: 0.54rem;
+}
+.img4{
+    top:0.20rem;
+    left: 0.35rem;
+    width: 0.55rem;
+    height: 0.60rem;
+}

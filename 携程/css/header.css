@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#header{
+    height:0.52rem;
+}
+#con{
+    position: fixed;
+    top:0;
+    z-index: 999;
+    display: flex;
+    width:100%;
+    height:0.52rem;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around
+}
+.place{
+    width:0.52rem;
+    font-size: 0.16rem;
+    color:#23beae;
+    background-image: url("../images/head/next.png");
+    background-repeat: no-repeat;
+    background-size: 0.15rem 0.10rem;
+    background-position: center right;
+}
+.search{
+    position: relative;
+    width:2.6rem;
+    height:0.33rem;
+    background-color:#eaedf7;
+    border-radius:60px;
+}
+.personal{
+    width:0.2rem;
+    height:0.2rem;
+    /* border:1px solid #000; */
+    background-image: url("../images/head/personal.png");
+    background-size: cover;
+}
+.search::before{
+    content:"";
+    /* display:block; */
+    position: absolute;
+    top:0.08rem;
+    left:0.55rem;
+    width:0.18rem;
+    height:0.18rem;
+    background-image: url("../images/head/search.png");
+    background-size: cover;
+}
+.search::after{
+    content:"目的地/酒店/景点/关键字";
+    position: absolute;
+    left:0.78rem;
+    top:0.08rem;
+    color:#93989f;
+    font-size:0.12rem;
+}

@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+#section #show{
+    width:100%;
+    height:1.6rem;
+    background-color: #fff;
+    margin-top:10px;
+}
+#section .title{
+    background-color: #fff;
+}
+#section .title .buyImg{
+    float:left;
+    width:0.8rem;
+    height:0.23rem;
+    /* height:0.43rem; */
+    background-image: url("../images/section/timeLimit.png");
+    background-size:0.8rem 0.24rem;
+    background-repeat: no-repeat;
+    margin-top:0.11rem;
+    margin-left:0.2rem;
+}
+#section .title .title-wrap{
+    float: right;
+    line-height:0.5rem;
+}
+#section .title .title-wrap .secskill-timer{
+    margin-left:10px;
+    margin-right:15px;
+}
+#section .title .title-wrap .secskill-time{
+    /* width:0.28rem; */
+    /* height:0.2rem; */
+    padding:0.03rem;
+    background-color: #666;
+    border-radius:0.03rem;
+    color:#fff;
+    font-size:12px;
+}
+
+#section #show-content .show-content-l{
+    float: left;
+    width:1.25rem;
+    height:1rem;
+    border:1px solid #000;
+    background-image: url("../images/section/limit.png");
+    background-size:cover;
+}
+#section #show-content .show-content-r{
+    float:left;
+    width:2.1rem;
+    height:1rem;
+    /* border:1px solid #f00; */
+    margin-left:0.1rem;
+}
+#section #show-content .show-content-r h3{
+    color: #404040;
+    font-size: 0.14rem;
+    font-weight: inherit;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#section #show-content .show-content-r .price{
+    color:#bbb;
+    display: flex;
+    justify-content: space-between;
+    margin-top:0.39rem;
+}
+
+#section #trip{
+    width:100%;
+    /* display: flex; */
+    margin-top:0.01rem;
+}
+#section #trip .specific,#section #trip .cheap{
+    float: left;
+    width:50%;
+    height:0.75rem;
+    /* border:1px solid #f00; */
+    background-color: #fff;
+    font-size:0.12rem;
+}
+#section #trip .word{
+    width:0.8rem;
+    margin-left:0.2rem;
+    padding-top:0.15rem;
+}
+#section #trip .word h3{
+    margin-bottom:0.02rem;
+}
+#section #trip .cheap p,#section #trip .specific p{
+    width:0.65rem;
+    text-align:center;
+    border-radius:0.2rem;
+    font-size:0.1rem;
+}
+#section #trip .cheap p{
+    border:1px solid yellow;
+    color:yellow;
+}
+#section #trip .specific p{
+    border:1px solid pink;
+    color:pink;
+}
+#section #trip img{
+    width:0.5rem;
+    margin-top:0.15rem;
+    margin-right:0.15rem;
+}
+
+#section #appDownLoad{
+    height:0.9rem;
+    margin-top:0.1rem;
+}
+
+#recommend{
+    /* height:4.5rem; */
+    background-color: #fff;
+    margin-top:0.1rem
+}
+#recommend .title{
+    position: relative;
+    line-height:0.55rem;
+    color:orange;
+    font-size:0.16rem;
+    text-align:center;
+}
+#recommend .title em{
+    position: absolute;
+    left:34%;
+    top:0.14rem;
+    width:.25rem;
+    height:.25rem;
+    /* border:1px solid #0ff; */
+    background-image: url("../images/section/time.png");
+    background-position:-0.15rem -0.55rem;
+    background-size: 2rem;
+}
+
+#recommend .placeList ul{
+    width:90%;
+    margin:auto;
+    padding-bottom:20px;
+    /* border-bottom:1px solid #ddd; */
+}
+#recommend .placeList ul li{
+    float:left;
+    width:22%;
+    line-height:0.3rem;
+    background-color: #f7f7f7;
+    border-radius:0.2rem;
+    text-align:center;
+    margin-right:0.10rem;
+    font-size:0.10rem;
+}
+#recommend .placeList ul li:last-child{
+    margin-top:0.15rem;
+}
+
+#placeShow{
+    height:3rem;
+    margin-top:0.02rem;
+    background-color: #fff;
+}
+#placeShow ul{
+    display: flex;
+    width:90%;
+    height:2.3rem;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:0.2rem;
+    align-content:space-between;
+}
+#placeShow ul li{
+    position: relative;
+    width:48%;
+}
+#placeShow ul li p{
+    position: absolute;
+    bottom:0.05rem;
+    width:100%;
+    color: #fff;
+    text-align: center;
+    font-size:0.12rem;
+    font-weight:bold;
+}
+#placeShow ul li .color{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.3);
+}
+#placeShow #more{
+    line-height: 50px;
+    text-align: center;
+    color:skyblue;
+}
+
+
+#name{
+    position: absolute;
+    top:0;
+    left:0;
+    width:0.34rem;
+    height:0.2rem;
+    background-color: #fc5446;
+}
+#name::before{
+    content:'古镇';
+    position: absolute;
+    left:0;
+    top:0;
+    color:#fff;
+    text-indent: 0.05rem;
+    font-size:0.1rem;
+}
+#name::after{
+    content:"";
+    position:absolute;
+    left:0.34rem;
+    width:0rem;
+    height:0rem;
+    border:0.1rem solid #ccc;
+    border-left:0.1rem solid #fc5446;
+    border-top:0.1rem solid #fc5446;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    /* background-color: #fc5446; */
+}

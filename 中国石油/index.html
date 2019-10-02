@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script>
+        (function () {
+            remChange()
+            window.addEventListener('resize', remChange)
+
+            function remChange() {
+                const html = document.querySelector('html')
+                //返回值是一个 DOMRect 对象，这个对象是由该元素的 getClientRects() 方法返回的一组矩形的集合, 即：是与该元素相关的CSS 边框集合 。
+                const width = html.getBoundingClientRect().width
+                html.style.fontSize = width / 3.75 + 'px'
+            }
+        })()
+    </script>
+</head>
+
+<body>
+    <div class="contianer">
+        <div class="logo">
+
+        </div>
+        <p class="title1"></p>
+        <p class="title2"></p>
+        <p class="con">
+            今年以来，机关服务中心认真落实公司领导的有关要求，积极探索新的服务模式和手段，开展总部机关服务项目提升工程，今年具体做好阳光服务大厅建设工程，和4件提升总部机服务保障的实事，不断把机关服务做好做实。</p>
+        <div class="con-app">
+            <a href="./Tips-one.html" class="top_l">
+                <p class="con-tit1">应急小药盒</p>
+                <img src="./images/shouye_23.jpg" alt="" class="img1">
+            </a>
+            <a href="./Tips-two.html" class="top_r">
+                <p class="con-tit2">5998电话来电显示</p>
+                <img src="./images/shouye_26.png" alt="" class="img2">
+            </a>
+            <a href="https://x.eqxiu.com/s/WKjx7Aet?eqrcode=1" class="bottom_l">
+                <img src="./images/che.png" alt="" class="img3">
+                <p class="con-tit3">车辆业务咨询及<br>
+                    驾驶证审验换证代</p>
+            </a>
+            <a href="./Tips-three.html" class="bottom_r">
+                <img src="./images/shouye_36.png" alt="" class="img4">
+                <p class="con-tit4">移动套餐用户免费<br>开通集团V网</p>
+            </a>
+        </div>
+        <div class="footer">
+            机关服务中心
+        </div>
+    </div>
+</body>
+
+</html>

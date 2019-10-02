@@ -1,0 +1,110 @@
+body{
+    background-color:rgb(5,113,176) ;
+    color: #fff;
+}
+.header{
+    width: 100%;
+}
+.header-top{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    height: 0.55rem;
+    align-items: center;
+    background-color:rgb(16,54,103);
+}
+.header-top .icon-jiantou-copy{
+    float: left;
+    margin-left: 0.05rem;
+    color: #fff;
+    margin-top: 0.04rem;
+}
+.header-top .back{
+    float: left;
+    margin-left: 0.05rem;
+    color: #fff;
+}
+
+
+.container{
+    width: 100%;
+    margin-top: 0.7rem;
+    /* background-color: pink; */
+}
+.container>.title{
+    text-align: center;
+    font-size: 0.20rem;
+}
+
+
+
+.section-one{
+    margin-top: 0.2rem;
+    padding: 0.1rem;
+}
+ .dis{
+    margin-top: 0.05rem !important;
+    margin-bottom: 0.05rem !important;
+}
+.section-one .text-content{
+    width: 85%;
+    margin: 0.2rem auto;
+    padding: 0 0.2rem 0.1rem;
+    border-radius: 0.2rem;
+    /* background-color: #4682B4; */
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+}
+.section-one h5{
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.text-content .tip{
+    display: inline-block;
+    margin-top: 0.1rem;
+}
+.text-content .tip>h5{
+    color: pink;
+}
+.text-content .tip p{
+    color: #333;
+    margin-top: 0.02rem;
+}
+.tongxun{
+    color: red;
+    font-size: 0.2rem !important;
+}
+.img-content {
+    width: 85%;
+    margin: 0.2rem auto;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+
+.img-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 0.2rem;
+    background-color:rgb(16,54,103);
+    text-align: center;
+    box-sizing: border-box;
+}
+.footer a{
+    color: #fff;
+}
+.footer .re{
+    display: inline-block;
+    margin-bottom: 0.06rem;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); 	/* Opera */
+}

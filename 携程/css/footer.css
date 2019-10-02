@@ -1,0 +1,80 @@
+#footer{
+    /* height:4.4rem; */
+    /* background-color: #ff0; */
+    margin-top:0.1rem;
+}
+#footer #introduce{
+    /* height:2.9rem; */
+    background-color: #fff;
+
+}
+#footer #introduce ul{
+    padding:0.3rem 0;
+}
+#footer #introduce ul li{
+    height:0.4rem;
+    /* border:1px solid #00f; */
+    padding:0.2rem 0;
+}
+#footer #introduce ul li .left{
+    width:0.4rem;
+    height:0.4rem;
+    /* border:1px solid #000; */
+    background-image: url("../images/footer/list.png");
+    background-position:0 -0.65rem;
+    background-size:1.5rem;
+    background-repeat: no-repeat;
+    margin-left:0.25rem;
+    margin-right:0.25rem;
+}
+#footer #introduce ul li .right{
+    color:darkorange;
+}
+#footer #introduce ul li .right h3{
+    font-size:0.14rem;
+}
+#footer #connection{
+    height:1.5rem;
+    /* background-color: #f00; */
+}
+#footer #connection ul{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+    padding-top:0.2rem;
+}
+
+#footer #connection li img{
+    width:0.3rem;
+    display: block;
+    margin:auto;
+}
+#footer #connection li p{
+    font-size:0.12rem;
+    color:#ccc;
+}
+#detail{
+    display: flex;
+    width:2.2rem;
+    /* height:0.63rem; */
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#filing{
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+#gift{
+    position:fixed;
+    right:0rem;
+    bottom:20%;
+    width:0.6rem;
+    height:0.5rem;
+    /* border:1px solid #000; */
+    background-image: url("../images/download.png");
+    background-size: cover;
+    z-index:9999;
+}

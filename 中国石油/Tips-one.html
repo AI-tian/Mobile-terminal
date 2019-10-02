@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        (function () {
+            remChange()
+            window.addEventListener('resize', remChange)
+            function remChange() {
+                const html = document.querySelector('html')
+                const width = html.getBoundingClientRect().width
+                html.style.fontSize = width / 3.75 + 'px'
+            }
+        })()
+
+    </script>
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-top">
+            <a href="./index.html" class="Aback">
+                <i class="iconfont icon-jiantou-copy"></i>
+                <div class="back">返回</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="title">急救小药盒药品使用说明</h2>
+
+        <div class="section-one">
+            <h4 class="title">【药品名称】硝酸甘油片</h4>
+            <div class="img-content ">
+                <img src="./images/xs.jpg" alt="">
+            </div>
+            <div class="text-content">
+                <span class="tip">
+                    <h5>【功效主治】</h5>
+                    <p>用于冠心病心绞痛的治疗及预防，也可用于降低血压或治疗充血性心力衰竭。</p>
+                </span>
+                <span class="tip">
+                    <h5>【用法用量】</h5>
+                    <p>
+                        片剂：成人一次用0.25～0.5 mg（半片-1片）舌下含服。每5分钟可重复1片，直至疼痛缓解。
+                        如果15分钟内总量达3片后疼痛持续存在，应立即就医。在活动或大便之前5～10分钟预防性使用，可避免诱发心绞痛。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【药物相互作用】</h5>
+                    <p>（1）中度或过量饮酒时，使用本药可致低血压。</p>
+                    <p>（2）与降压药或血管扩张药合用可增强硝酸盐的致体位性低血压作用。</p>
+                    <p>（3）阿司匹林可减少舌下含服硝酸甘油的清除，并增强其血流动力学效应。</p>
+                    <p>（4）使用长效硝酸盐可降低舌下用药的治疗作用。</p>
+                    <p>（5）枸橼酸西地那非（万艾可）加强有机硝酸盐的降压作用。</p>
+                    <p>（6）与乙酰胆碱、组胺及拟交感胺类药合用时，疗效可能减弱。</p>
+                </span>
+                <span class="tip">
+                    <h5>【不良反应】</h5>
+                    <p>（1）头痛：可于用药后立即发生，可为剧痛和呈持续性。</p>
+                    <p>（2）偶可发生眩晕、虚弱、心悸和其他体位性低血压的表现，尤其在直立、制动的患者。</p>
+                    <p>（3）治疗剂量可发生明显的低血压反应，表现为恶心、呕吐、虚弱、出汗、苍白和虚脱。</p>
+                    <p>（4）偶可发生晕厥、面红、药疹和剥脱性皮炎。</p>
+                </span>
+                <span class="tip">
+                    <h5>【禁忌症】</h5>
+                    <p>
+                        禁用于心肌梗塞早期（有严重低血压及心动过速时）、严重贫血、青光眼、
+                        颅内压增高和已知对硝酸甘油过敏的患者。还禁用于使用枸橼酸西地那非（万艾可）的患者，
+                        后者增强硝酸甘油的降压作用。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【注意事项】</h5>
+                    <p>（1）应使用能有效缓解急性心绞痛的最小剂量，过量可能导致耐受现象。片剂用于舌下含服，不可吞服。</p>
+                    <p>（2）小剂量可能发生严重低血压，尤其在直立位时。舌下含服用药时患者应尽可能取坐位，以免因头晕而摔倒.</p>
+                    <p>（3）应慎用于血容量不足或收缩压低的患者。</p>
+                    <p>（4）诱发低血压时可合并反常性心动过缓和心绞痛加重。</p>
+                    <p>（5）可使肥厚梗阻型心肌病引起的心绞痛恶化。</p>
+                    <p>（6）可发生对血管作用和抗心绞痛作用的耐受性。</p>
+                    <p>（7）如果出现视力模糊或口干，应停药。剂量过大可引起剧烈头痛。</p>
+                </span>
+                <span class="tip">
+                    <h5>【药物过量】</h5>
+                    <p>
+                        过量可引起严重低血压、心动过速、心动过缓、传导阻滞、心悸、循环衰竭导致死亡、晕厥、
+                        持续搏动性头痛、眩晕、视力障碍、颅内压增高、瘫痪和昏迷并抽搐、脸红与出汗、恶心与和呕吐、腹部绞痛与腹泻、
+                        呼吸困难与高铁血红蛋白血症。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【贮 藏】</h5>
+                    <p>遮光，密封，置阴凉处。</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="section-one">
+            <h4 class="title">【药品名称】速效救心丸</h4>
+            <div class="img-content ">
+                    <img src="./images/sx.jpg" alt="">
+                </div>
+            <div class="text-content">
+                <span class="tip">
+                    <h5>【功效主治】</h5>
+                    <p>行气活血，祛瘀止痛，增加冠脉血流量，缓解心绞痛。用于气滞血瘀型冠心病，心绞痛。</p>
+                </span>
+                <span class="tip">
+                    <h5>【用法用量】</h5>
+                    <p>
+                        含服，一次4—6粒，一日3次；急性发作时，一次10-15粒。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【注意事项】</h5>
+                    <p>孕妇禁用。寒凝血瘀，阴虚血瘀胸痹心痛不易单用。有过敏体质者慎用。伴有中重度心力衰竭的心肌缺血者慎用。
+                        在治疗期间，心绞痛持续发作，宜加用硝酸酯类药。</p>
+                </span>
+                <span class="tip">
+                    <h5>【贮 藏】</h5>
+                    <p>密封，置阴凉干燥处。</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="section-one">
+            <h4 class="title">【药品名称】多潘立酮片（吗丁啉）</h4>
+            <div class="img-content ">
+                    <img src="./images/ma.jpg" alt="">
+                </div>
+            <div class="text-content">
+                <span class="tip">
+                    <h5>【功效主治】</h5>
+                    <p>用于消化不良、腹胀、嗳气、恶心、呕吐、腹部胀痛。</p>
+                </span>
+                <span class="tip">
+                    <h5>【用法用量】</h5>
+                    <p>
+                        口服。成人一次1片，一日3次，饭前15-30分钟服用。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【注意事项】</h5>
+                    <p>（1）本品用药3天，如症状未缓解，请咨询医师或药师。药物使用时间一般不超过1周。</p>
+                    <p>
+                        （2）心脏病患者，接受化疗的肿瘤患者，电解质紊乱的患者应用时需慎重，有可能加重心律紊乱。
+                        如出现可能与心律失常相关的体征或症状，应停止使用，并迅速咨询医师。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【禁忌症】</h5>
+                    <p>（1）机械性消化道梗阻，消化道出血，穿孔患者禁用。</p>
+                    <p>（2）分泌催乳素的垂体肿瘤，嗜铬细胞瘤，乳癌患者禁用。</p>
+                    <p>（3）禁止与酮康唑口服制剂或氟康唑，克拉霉素，胺碘酮，泰利霉素等药物合用。</p>
+                    <p>（4）中重度肝功能不全患者禁用。</p>
+                </span>
+                <span class="tip">
+                    <h5>【贮 藏】</h5>
+                    <p>遮光，密封保存。</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="section-one">
+            <h4 class="title">【药品名称】茶苯海明片（乘晕宁）</h4>
+            <div class="img-content ">
+                    <img src="./images/bb.jpg" alt="">
+                </div>
+            <div class="text-content">
+                <span class="tip">
+                    <h5>【功效主治】</h5>
+                    <p>用于防治晕动病，如晕车、晕船、晕机所致的恶心、呕吐。</p>
+                </span>
+                <span class="tip">
+                    <h5>【用法用量】</h5>
+                    <p>
+                        口服。成人一次1-2片。预防晕动病应在出发前30分钟服药，
+                        治疗晕动病时每4小时服药1次。一日用量不得超过12片。7～12岁儿童一次1～2片，一日不得超过8片。
+                    </p>
+                </span>
+                <span class="tip">
+                    <h5>【不良反应】</h5>
+                    <p> （1）常见不良反应有：迟钝，嗜睡，注意力不集中，疲乏，头晕，也可有胃肠不适。</p>
+                    <p>（2）罕见：幻觉，视力下降，排尿困难，皮疹等反应。</p>
+                </span>
+                <span class="tip">
+                    <h5>【禁忌症】</h5>
+                    <p>（1）对其他乙醇胺类药物过敏者禁用。</p>
+                    <p>（2）孕妇，新生儿及早产儿禁用。</p>
+                </span>
+                <span class="tip">
+                    <h5>【注意事项】</h5>
+                    <p>（1）可与食物，果汁或牛奶同服，以减少对胃刺激。</p>
+                    <p>（2）服药期间不得驾驶机，车，船，从事高空作业，机械作业及操作精密仪器。</p>
+                    <p>（3）服用本品期间不得饮酒或含有酒精饮料，不得与其他中枢神经抑制药（如一些镇静安眠药）及三环类抑郁药同服。</p>
+                    <p>（4）如服用过量或出现严重不良反应，应立即就医。</p>
+                </span>
+                <span class="tip">
+                    <h5>【贮 藏】</h5>
+                    <p>密封，置阴凉干燥处。</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="http://www.cnkang.com/video/article/n_8269.html">更多医疗小常识</a> 
+        <i class="iconfont icon-jiantou-copy re"></i>
+    </div>
+
+</body>
+
+</html>

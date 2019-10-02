@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> 小田仿同程旅行网 </title>
+    <script>
+        
+        (function () {
+            remChange()
+            window.addEventListener('resize',remChange)
+            function remChange() {
+                const html = document.querySelector('html')
+                //返回值是一个 DOMRect 对象，这个对象是由该元素的 getClientRects() 方法返回的一组矩形的集合, 即：是与该元素相关的CSS 边框集合 。
+                const width = html.getBoundingClientRect().width
+                html.style.fontSize = width / 3.75 +'px'
+            }
+
+        })()
+
+    </script>
+    <link rel="icon" href="images/head/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    
+    <div  style='background-color:#f2f4f7;'>
+        <div id='gift'></div>
+            <!-- <img src='images/head/next.png' width='0.17rem' height='0.1rem'/> -->
+        <div id='header'>
+            <div id='con'>
+                <div class='place'> 长沙</div>
+                <div class='search'></div>
+                <div class='personal'></div>
+            </div>
+        </div>
+        <div id="slider" class="clearfix">
+            <div class="slider-touch">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/1.webp"></a></li>
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/2.webp"></a></li>
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/3.jpg"></a></li>
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/4.jpg"></a></li>
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/5.webp"></a></li>
+                    <li class="swiper-slide"><a href="#"><img width='100%' height='100%' src="images/banner/6.webp"></a></li>
+                </ul>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div id='nav'>
+            <div id='mainNav'>
+                <ul>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/1.png" alt="">
+                            <p>火车票</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/2.png" alt="">
+                            <p>机票</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/3.png" alt="">
+                            <p>酒店住宿</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/4.png" alt="">
+                            <p>景点门票</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="subNav">
+                <ul>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/01.png" alt="">
+                            <p>汽车票 船票</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/02.png" alt="">
+                            <p>周边自由行</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/03.png" alt="">
+                            <p>周边跟团游</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/04.png" alt="">
+                            <p>国内游</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/05.png" alt="">
+                            <p>邮轮</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/06.png" alt="">
+                            <p>出境游</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/07.png" alt="">
+                            <p>海外玩乐</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/08.png" alt="">
+                            <p>签证</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/09.png" alt="">
+                            <p>全球WIFI</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="images/nav/10.png" alt="">
+                            <p>全部服务</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="section">
+
+            <div id='show'>
+                <div class='title clearfix'>
+                    <div class='buyImg'></div>
+                    <div class="title-wrap">
+                        <p class='fl'>还剩</p>
+                        <div class="fl secskill-timer">
+                            <span class="secskill-time" id="secskill-hour">00</span>
+                            <span class="secskill-time-colon">:</span>
+                            <span class="secskill-time" id="secskill-min">00</span>
+                            <span class="secskill-time-colon">:</span>
+                            <span class="secskill-time" id="secskill-sec">00</span>
+                        </div>
+                    </div>
+                </div>
+                <div id='show-content'>
+                    <div class='show-content-l'></div>
+                    <div class='show-content-r'>
+                        <h3>【海滨度假】广西北海休闲游，包含：开元曼居酒店住宿+自助早餐+站点接送+北海一日游+涠洲岛一日游，2人起订~</h3>
+                        <div class='price'>
+                            <p>
+                                <b style="color:blueviolet;">¥1139.00</b>起 
+                            </p>
+                            <p>
+                                更多抢购
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='trip' class='clearfix'>
+                <div class='cheap'> 
+                    <div class='word fl'>
+                        <h3> 1元玩景点 </h3> 
+                        <p> PLUS会员 </p>   
+                    </div>
+                    <img class='fr' src='images/section/gold.png'/>
+                </div>
+                <div class='specific'> 
+                    <div class='word fl'>
+                        <h3> 出境特卖 </h3> 
+                        <p> 每日上新 </p> 
+                    </div>
+                    <img class='fr' src="images/section/news.png"/>
+                </div>
+            </div>
+            <div id="appDownLoad">
+                <img src="images/section/download.jpg" width='100%' alt="">
+            </div>
+        </div>
+        <div id="recommend">
+            <div class="title"><em></em>热门推荐</div>
+            <div class="placeList">
+                <ul class='clearfix'>
+                    <li>曼谷</li>
+                    <li>巴厘岛</li>
+                    <li>大阪</li>
+                    <li>冲绳</li>
+                    <li>
+                        ***
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="placeShow">
+            <ul>
+                <li>
+                    <img src="images/trip/1.jpg" width='100%' alt="">
+                    <div class='color'>
+                        <p>今年最火的10大古镇</p>
+                    </div>
+                     <div id='name'>
+                        <!-- <p>古镇</p> -->
+                         <!--<svg xmlns="http://www.w3.org/2000/svg" width='100%' height='100%'>
+                            <path d='M0 0L40 0 L28 20 L0 20' fill='#fc5446'></path>
+                            <text x='28' y='15' font-size='11' text-anchor="end">古镇</text>
+                        </svg>-->
+                    </div> 
+                </li>
+                <li>
+                    <img src="images/trip/2.jpg" width='100%' alt="">
+                    <div class='color'>
+                        <p>适合秋冬出游的海岛</p>
+                    </div>
+                    <div id='name'>
+                        <!-- <p>古镇</p> -->
+                            <!--<svg xmlns="http://www.w3.org/2000/svg" width='100%' height='100%'>
+                            <path d='M0 0L40 0 L28 20 L0 20' fill='#fc5446'></path>
+                            <text x='28' y='15' font-size='11' text-anchor="end">古镇</text>
+                        </svg>-->
+                    </div> 
+                </li>
+                <li>
+                    <img src="images/trip/3.jpg" width='100%' alt="">
+                    <div class='color'>
+                        <p>中国8大经典自驾线路</p>
+                    </div>
+                    <div id='name'>
+                        <!-- <p>古镇</p> -->
+                            <!--<svg xmlns="http://www.w3.org/2000/svg" width='100%' height='100%'>
+                            <path d='M0 0L40 0 L28 20 L0 20' fill='#fc5446'></path>
+                            <text x='28' y='15' font-size='11' text-anchor="end">古镇</text>
+                        </svg>-->
+                    </div> 
+                </li>
+                <li>
+                    <img src="images/trip/4.jpg" width='100%' alt="">
+                    <div class='color'>
+                        <p>10月旅行目的地推荐</p>
+                    </div>
+                    <div id='name'>
+                        <!-- <p>古镇</p> -->
+                            <!--<svg xmlns="http://www.w3.org/2000/svg" width='100%' height='100%'>
+                            <path d='M0 0L40 0 L28 20 L0 20' fill='#fc5446'></path>
+                            <text x='28' y='15' font-size='11' text-anchor="end">古镇</text>
+                        </svg>-->
+                    </div> 
+                </li>
+            </ul>
+            <div id="more">查看更多玩法</div>
+        </div>
+        <div id='footer'>
+            <div id="introduce">
+                <ul>
+                    <li>
+                        <div class='left fl'></div>
+                        <div class='right fl'>
+                            <h3>价格公正</h3>
+                            <p>价格公开透明，请安心购买</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class='left fl'></div>
+                        <div class='right fl'>
+                            <h3>产品丰富</h3>
+                            <p>出行产品,全品类覆盖，一站式服务</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class='left fl'></div>
+                        <div class='right fl'>
+                            <h3>品质保证</h3>
+                            <p>精选细选，产口优先，放心出行</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class='left fl'></div>
+                        <div class='right fl'>
+                            <h3>专业顾问</h3>
+                            <p>24小时专业客服，一对一服务</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id='connection'>
+                <ul class='memu'>
+                    <li>
+                        <img src='images/footer/call.png'/>
+                        <p>客服电话</p>
+                    </li>
+                    <li>
+                        <img src='images/footer/tel.png'/>
+                        <p>下载客户端</p>
+                    </li>
+                    <li>
+                        <img src='images/footer/personal.png'/>
+                        <p>我的同程</p>
+                    </li>
+                </ul>
+                <div id='detail'>
+                    <span>电脑版</span>
+                    <span>简体中文</span>
+                    <span>意见反馈</span>
+                </div>
+                <div id='filing'>@2019同程旅游</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
